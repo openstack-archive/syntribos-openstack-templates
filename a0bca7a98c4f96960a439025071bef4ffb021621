@@ -1,0 +1,8 @@
+Code-Review+2: Vinay Potluri <vinaypotluri8@gmail.com>
+Workflow+1: Vinay Potluri <vinaypotluri8@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 14 Mar 2017 17:44:29 +0000
+Reviewed-on: https://review.openstack.org/445171
+Project: openstack/syntribos-openstack-templates
+Branch: refs/heads/master
