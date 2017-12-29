@@ -1,0 +1,27 @@
+POST /v1/batch/metrics/measures HTTP/1.1
+Accept: application/json
+Content-type: application/json
+X-Auth-Token: CALL_EXTERNAL|syntribos.extensions.identity.client:get_scoped_token_v3:["user"]|
+
+{
+  "{CALL_EXTERNAL|syntribos.extensions.random_data.client:get_uuid:[]|}": [
+    {
+      "timestamp": "2014-10-06T14:34:12",
+      "value": 12
+    },
+    {
+      "timestamp": "2014-10-06T14:34:20",
+      "value": 2
+    }
+  ],
+  "{CALL_EXTERNAL|syntribos.extensions.random_data.client:get_uuid:[]|}": [
+    {
+      "timestamp": "2014-10-06T16:12:12",
+      "value": 3
+    },
+    {
+      "timestamp": "2014-10-06T18:14:52",
+      "value": 4
+    }
+  ]
+}
